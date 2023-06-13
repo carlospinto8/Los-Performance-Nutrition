@@ -1,0 +1,64 @@
+<%- include("header") -%>
+
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="/">LPN</a>
+        <button class="navbar-toggler" type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="/">HOME</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="/supps"
+                        role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        SUPPLEMENTS
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item"
+                                href="/preworkout">PREWORKOUT</a></li>
+                        <li><a class="dropdown-item"
+                                href="/endurance">ENDURANCE</a></li>
+                        <li><a class="dropdown-item" href="/proteins">PROTEIN</a></li>
+                        <li><a class="dropdown-item" href="/health">HEALTH</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link"
+                        href="/apparel">APPAREL</a>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+</nav>
+
+<div class="contact-div">
+    <h2>CONTACT US</h2>
+    <div class="mb-4 w-50 mt-4">
+        <label for="exampleFormControlInput1" class="form-label">NAME</label>
+        <input type="text" class="form-control border-black" id="exampleFormControlInput1" placeholder="fName lName">
+      </div>
+    <div class="mb-4 w-50">
+        <label for="exampleFormControlInput2" class="form-label">EMAIL ADDRESS</label>
+        <input type="email" class="form-control border-black" id="exampleFormControlInput2" placeholder="name@example.com">
+      </div>
+      <div class="mb-4 w-50">
+        <label for="exampleFormControlInput3" class="form-label">PHONE NUMBER</label>
+        <input type="tel" class="form-control border-black" id="exampleFormControlInput3" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+      </div>
+      
+      <div class="mb-4 w-50">
+        <label for="exampleFormControlTextarea1" class="form-label">MESSAGE</label>
+        <textarea class="form-control border-black" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
+
+      <button type="submit" class="btn btn-primary">Submit</button>
+</div>
+
+<%- include("footer") -%>

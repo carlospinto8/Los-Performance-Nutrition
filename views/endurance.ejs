@@ -1,0 +1,97 @@
+<%- include("header") -%>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/">LPN</a>
+            <button class="navbar-toggler" type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/">HOME</a>
+                    </li>
+                    <li class="nav-item dropdown active" aria-current="page">
+                        <a class="nav-link dropdown-toggle" href="/supps"
+                            role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            SUPPLEMENTS
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item"
+                                    href="/preworkout">PREWORKOUT</a></li>
+                            <li><a class="dropdown-item"
+                                    href="/endurance">ENDURANCE</a></li>
+                            <li><a class="dropdown-item" href="/proteins">PROTEIN</a></li>
+                            <li><a class="dropdown-item" href="/health">HEALTH</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link"
+                            href="/apparel">APPAREL</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+    <div class="banner-div-endurance banner-div">
+
+        <div class="col col-lg-6 col-sm-12">
+            <h2>ENDURANCE</h2>
+        </div>
+        <div class="col col-lg-6 col-sm-12">
+
+        </div>
+
+    </div>
+
+    <div class="endurance-shop-div">
+        <div class="endurance-shop-row row">
+            <div class="card-div col-lg-3 col-md-6 d-flex align-items-stretch">
+                <div class="card endurance-card">
+                    <img src="images/electrolytes.png"
+                        class="card-img-top" alt="container of electrolyte powder">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">ELECTROLYTES</h5>
+                        <p class="card-text">
+                            An endurance supplement with electrolytes and carbohydrates
+                            to fuel and hydrate.
+                        </p>
+                        <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+                            <option selected>Select Flavor</option>
+                            <option value="1">Fruit Punch</option>
+                            <option value="2">Sour Watermelon</option>
+                            <option value="3">Raspberry Lemonade</option>
+                        </select>
+                        <a href="#" class="btn btn-primary w-100">Add To Cart</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-div col-lg-3 col-md-6 d-flex align-items-stretch">
+                <div class="card endurance-card">
+                    <img src="images/bcaa.png"
+                        class="card-img-top" alt="container of BCAA powder">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">BCAAs</h5>
+                        <p class="card-text">
+                            Branched-chain amino acids (BCAA's) help increase
+                            muscular endurance during training and supports recovery after.
+                        </p>
+                        <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+                            <option selected>Select Flavor</option>
+                            <option value="1">Sour Apple</option>
+                            <option value="2">Lemon Lime</option>
+                            <option value="3">Raspberry Lemonade</option>
+                        </select>
+                        <a href="#" class="btn btn-primary w-100">Add To Cart</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<%- include("footer") -%>

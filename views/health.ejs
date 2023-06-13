@@ -1,0 +1,172 @@
+<%- include("header") -%>
+
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="/">LPN</a>
+        <button class="navbar-toggler" type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="/">HOME</a>
+                </li>
+                <li class="nav-item dropdown active" aria-current="page">
+                    <a class="nav-link dropdown-toggle" href="/supps"
+                        role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        SUPPLEMENTS
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item"
+                                href="/preworkout">PREWORKOUT</a></li>
+                        <li><a class="dropdown-item"
+                                href="/endurance">ENDURANCE</a></li>
+                        <li><a class="dropdown-item" href="/proteins">PROTEIN</a></li>
+                        <li><a class="dropdown-item" href="/health">HEALTH</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link"
+                        href="/apparel">APPAREL</a>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+</nav>
+
+<div class="banner-div-health banner-div">
+
+    <div class="col col-lg-6 col-sm-12">
+        <h2>HEALTH</h2>
+    </div>
+    <div class="col col-lg-6 col-sm-12">
+
+    </div>
+
+</div>
+
+<div class="health-shop-div">
+    <div class="health-shop-row row">
+        <div class="card-div col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="health-card card">
+                <img src="images/multivitamin.png"
+                        class="card-img-top" alt="container of multi-vitamins">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">MULTI-VITAMIN</h5>
+                        <p class="card-text">
+                            A Multi-Vitamin with essential vitamins and 
+                            minerals to optimize your health, energy, mood, and sleep.
+                        </p>
+                        <select class="form-select form-select-sm mb-3" aria-label=".form-select-lg example">
+                            <option selected>30-Day Supply</option>
+                        </select>
+                        <a href="#" class="btn btn-primary w-100">Add To Cart</a>
+                    </div>
+            </div>
+        </div>
+
+        <div class="card-div col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="health-card card">
+                <img src="images/d3.png"
+                        class="card-img-top" alt="container of Vitamin D3">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">VITAMIN D3</h5>
+                        <p class="card-text">
+                            Vitamin D supplement that positively affects strength, 
+                            testosterone, mood, and bone density.
+                        </p>
+                        <select class="form-select form-select-sm mb-3" aria-label=".form-select-lg example">
+                            <option selected>30-Day Supply</option>
+                        </select>
+                        <a href="#" class="btn btn-primary w-100">Add To Cart</a>
+                    </div>
+            </div>
+        </div>
+
+        <div class="card-div col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="health-card card">
+                <img src="images/fishoil.png"
+                        class="card-img-top" alt="container of fish oil supplements">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">FISH OIL</h5>
+                        <p class="card-text">
+                            An effective Omega-3 fatty acid supplement, produced from 
+                            100% wild caught fish.
+                        </p>
+                        <select class="form-select form-select-sm mb-3" aria-label=".form-select-lg example">
+                            <option selected>30-Day Supply</option>
+                        </select>
+                        <a href="#" class="btn btn-primary w-100">Add To Cart</a>
+                    </div>
+            </div>
+        </div>
+        
+    </div>
+
+    <div class="health-shop-row row">
+        <div class="card-div col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="health-card card">
+                <img src="images/greens.png"
+                        class="card-img-top" alt="container of multi-vitamins">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">GREENS</h5>
+                        <p class="card-text">
+                            A superfood greens powder to improve digestion,
+                            support the immune system and increase energy.
+                        </p>
+                        <select class="form-select form-select-sm mb-3" aria-label=".form-select-lg example">
+                            <option selected>Select Flavor</option>
+                            <option value="1">Lemon-Lime</option>
+                            <option value="2">Very Berry</option>
+                        </select>
+                        <a href="#" class="btn btn-primary w-100">Add To Cart</a>
+                    </div>
+            </div>
+        </div>
+
+        <div class="card-div col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="health-card card">
+                <img src="images/sleep.png"
+                        class="card-img-top" alt="container of sleep support supplements">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">SLEEP SUPPORT</h5>
+                        <p class="card-text">
+                            A night-time sleep support supplement with ingredients
+                            to improve sleep quality and recovery.
+                        </p>
+                        <select class="form-select form-select-sm mb-3" aria-label=".form-select-lg example">
+                            <option selected>Select Flavor</option>
+                            <option value="1">Orange Creamsicle</option>
+                            <option value="2">Hot Chocolate</option>
+                            <option value="3">French Vanilla</option>
+                        </select>
+                        <a href="#" class="btn btn-primary w-100">Add To Cart</a>
+                    </div>
+            </div>
+        </div>
+
+        <div class="card-div col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="health-card card">
+                <img src="images/joints.png"
+                        class="card-img-top" alt="container of joint support supplements">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">JOINT SUPPORT</h5>
+                        <p class="card-text">
+                            A joint supplement to meet the demands of mobility and joint comfort every day.
+                        </p>
+                        <select class="form-select form-select-sm mb-3" aria-label=".form-select-lg example">
+                            <option selected>30-Day Supply</option>
+                        </select>
+                        <a href="#" class="btn btn-primary w-100">Add To Cart</a>
+                    </div>
+            </div>
+        </div>
+        
+    </div>
+</div>
+
+<%- include("footer") -%>

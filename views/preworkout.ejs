@@ -1,0 +1,94 @@
+<%- include("header") -%>
+
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="/">LPN</a>
+        <button class="navbar-toggler" type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="/">HOME</a>
+                </li>
+                <li class="nav-item dropdown active" aria-current="page">
+                    <a class="nav-link dropdown-toggle" href="/supps"
+                        role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        SUPPLEMENTS
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item"
+                                href="/preworkout">PREWORKOUT</a></li>
+                        <li><a class="dropdown-item"
+                                href="/endurance">ENDURANCE</a></li>
+                        <li><a class="dropdown-item" href="/proteins">PROTEIN</a></li>
+                        <li><a class="dropdown-item" href="/health">HEALTH</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link"
+                        href="/apparel">APPAREL</a>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+</nav>
+
+<div class="banner-div-preworkout banner-div">
+
+    <div class="col col-lg-6 col-sm-12">
+        <h2>PREWORKOUT</h2>
+    </div>
+    <div class="col col-lg-6 col-sm-12">
+
+    </div>
+
+</div>
+
+<div class="preworkout-shop-div">
+    <div class="preworkout-shop-row row">
+        <div class="card-div col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="card protein-card">
+                <img src="images/preworkout.png"
+                    class="card-img-top" alt="container of preworkout powder">
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">PREWORKOUT</h5>
+                    <p class="card-text">
+                        A preworkout to boost power output, improve focus, and increase energy.
+                    </p>
+                    <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+                        <option selected>Select Flavor</option>
+                        <option value="1">Blue Raspberry</option>
+                        <option value="2">Sour Watermelon</option>
+                        <option value="3">Pink Lemonade</option>
+                    </select>
+                    <a href="#" class="btn btn-primary w-100">Add To Cart</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="card-div col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="card protein-card">
+                <img src="images/creatine.png"
+                    class="card-img-top" alt="container of creatine powder">
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">CREATINE</h5>
+                    <p class="card-text">
+                        5 grams per serving of creatine monohydrate.
+                    </p>
+                    <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+                        <option selected>Unflavored</option>
+                    </select>
+                    <a href="#" class="btn btn-primary w-100">Add To Cart</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<%- include("footer") -%>

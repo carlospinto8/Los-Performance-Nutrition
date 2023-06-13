@@ -1,0 +1,91 @@
+<%- include("header") -%>
+
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="/">LPN</a>
+        <button class="navbar-toggler" type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="/">HOME</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="/supps"
+                        role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        SUPPLEMENTS
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item"
+                                href="/preworkout">PREWORKOUT</a></li>
+                        <li><a class="dropdown-item"
+                                href="/endurance">ENDURANCE</a></li>
+                        <li><a class="dropdown-item" href="/proteins">PROTEIN</a></li>
+                        <li><a class="dropdown-item" href="/health">HEALTH</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link"
+                        href="/apparel">APPAREL</a>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+</nav>
+
+<div class="prop-div">
+    <h1>PROP 65</h1>
+
+    <h3 class="fw-semibold">California's Proposition 65 Info</h3>
+
+    <p>You may have seen this warning on various products: </p>
+
+    <p class="prop-p">
+        <i class="fa-solid fa-triangle-exclamation" style="color: #c3aa09;"></i>WARNING: This product can expose you to chemicals including arsenic, 
+        which is known to the State of California to cause cancer. 
+        For more information, go to <a href="www.P65Warnings.ca.gov" class="link-secondary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">www.P65Warnings.ca.gov</a>.
+    </p>
+
+    <h5>What is California Prop 65?</h5>
+    <p class="prop-p"> 
+        Formerly known as Safe Drinking Water and Toxic Enforcement Act, Proposition 65 
+        requires the publication of a list of chemicals that the State of California determines causes cancer or birth defects. 
+        They also require companies that sell products that contain those chemicals to inform California residents about 
+        the risk of exposure to such chemicals by including a warning notice on the product label, or to inform the customer in an approved way before purchase. 
+        Proposition 65 warning notices can be seen all throughout California in restaurants, grocery stores, hotels, bars, schools, hospitals, and amusement parks.
+    </p>
+
+    <h5>
+        Who is required to display a Prop 65 Warning?
+    </h5>
+    <p>
+        Proposition 65 requires companies to put this notice on their products if there is any ingredient that tests over 1/1000th of what the World Health Organization 
+        deems as “Safe Harbor Levels” of their list of chemicals, which includes some naturally occurring minerals. While many countries and states rely on 
+        federal governing bodies to set these levels in place, California has created their own law and stipulations that companies must adhere to if they plan to do 
+        business in the state of California. No other state or country enforces Proposition 65 law aside from the state of California.
+    </p>
+    <p>
+        When a company includes a Proposition 65 warning notice on a product page or label, it does not mean the product is unsafe. The warning notice is included to 
+        inform California consumers of the presence of a Proposition 65-listed chemical so the consumer can make an informed decision when purchasing the product.
+    </p>
+    <p>
+        It is important to note that heavy metals like lead, arsenic, cadmium and mercury do occur naturally in the soil and water. As plants grow, they pull nutrients from 
+        the soil and water, including trace amounts of some naturally-occurring heavy metals.
+    </p>
+    <p>
+        Every finished good that Los Performance Nutrition sells is tested for identity and purity. Furthermore, every incoming lot is quarantined in our facility 
+        until it is tested for banned substances. If a Lose Performance Nutrition product contains a naturally-occurring chemical in an amount that is above a 
+        Proposition 65 threshold, then a required Proposition 65 warning is placed on the product page or a warning will display at checkout. 
+    </p>
+    <p class="prop-p">
+        For information about Proposition 65 go to http://www.oehha.ca.gov/prop65.html
+    </p>
+
+</div>
+
+<%- include("footer") -%>

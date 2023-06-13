@@ -1,0 +1,401 @@
+
+
+body {
+    align-items: center;
+    font-family: "Montserrat";
+    width: 100%;
+}
+
+h1,h2,h3,h4,h5 {
+    font-weight: bold;
+}
+
+div {
+    align-items: center;
+}
+
+nav {
+    font-weight: 600;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+li {
+    margin-left: 0.75rem;
+    margin-right: 0.75rem;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    height: 2.5rem;
+    width: 100%;
+    display: flex; 
+    justify-content: center;
+}
+
+.banner-div-about {
+    background-image: url("../images/about-banner.jpg");
+    background-size: cover;
+    color: white;
+    padding: 3rem;
+    height: 700px;
+    background-position: center;
+}
+
+.banner-div-home {
+    background-image: url("../images/banner.jpg");
+    background-size: cover;
+    color: white;
+    padding: 3rem;
+    height: 700px;
+    background-position: center;
+}
+
+.banner-div-apparel {
+    background-image: url("../images/apparel-banner.jpg");
+    background-size: cover;
+    color: white;
+    padding: 3rem;
+    height: 700px;
+    background-position: center;
+}
+
+.banner-div-endurance {
+    background-image: url("../images/running-banner.jpg");
+    background-size: cover;
+    color: white;
+    padding: 3rem;
+    height: 700px;
+    background-position: center;
+}
+
+.banner-div-protein {
+    background-image: url("../images/protein-banner.jpg");
+    background-size: cover;
+    color: white;
+    padding: 3rem;
+    height: 700px;
+    background-position: center;
+}
+
+.banner-div-preworkout {
+    background-image: url("../images/preworkout-banner.jpg");
+    background-size: cover;
+    color: white;
+    padding: 3rem;
+    height: 700px;
+    background-position: center;
+}
+
+.banner-div-health {
+    background-image: url("../images/health-banner.jpg");
+    background-size: cover;
+    color: white;
+    padding: 3rem;
+    height: 700px;
+    background-position: center;
+}
+
+/* Need media queries */
+
+@media (max-width: 1000px){
+    .banner-div {
+        height: 400px;
+    }
+} 
+
+@media (max-width: 600px){
+    .banner-div {
+        height: 200px;
+    }
+} 
+
+
+.home-shop-here {
+    margin: 3.5rem 2.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.img-hover-zoom {
+    overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+  }
+  
+  /* [2] Transition property for smooth transformation of images */
+  .img-hover-zoom img {
+    transition: transform .5s ease;
+  }
+  
+  /* [3] Finally, transforming the image when container gets hovered */
+  .img-hover-zoom:hover img {
+    transform: scale(1.5);
+  }
+
+.card-div {
+    width: 22.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.home-card {
+    margin-left: 1.75rem;
+    margin-right: 1.75rem;
+    font-size: 0.75rem;
+    font-weight: 600;
+    min-width: 100px;
+}
+
+.mission-statement-div {
+    margin: 5rem 3rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.mission-h2 {
+    margin-bottom: 1.5rem;
+}
+
+.mission-statement-p {
+    max-width: 700px;
+}
+
+.review-div {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    margin-bottom: 5rem;
+}
+
+.carousel-caption {
+    flex-direction: column;
+    position: relative;
+    right: 0;
+    left: 0;
+}
+
+.review {
+    color: black;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    color: black;
+}
+
+/* Footer  */
+
+.footer-div {
+    color: white;
+    display: flex;
+    padding: 3rem 3rem 2rem 1rem;
+    margin: 0;
+    justify-content: center;
+    max-width: 100%;
+}
+
+@media (max-width: 1000px) {
+    .footer-div {
+        padding: 3rem 1rem;
+    }
+}
+
+.footer-sub-div {
+    margin-bottom: 1rem;
+}
+
+.footer-link {
+    color: white;
+    font-size: 0.85rem;
+}
+
+/*  Apparel Page */
+
+.apparel-shop-div {
+    justify-content: center;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.apparel-shop-row {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.apparel-card {
+    font-size: 0.85rem;
+}
+
+/*  Endurance Supplements Page */
+
+.endurance-shop-div {
+    justify-content: center;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.endurance-shop-row {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.endurance-card {
+    font-size: 0.85rem;
+}
+
+/*  Protein Supplements Page */
+
+.protein-shop-div {
+    justify-content: center;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.protein-shop-row {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.protein-card {
+    font-size: 0.85rem;
+}
+
+/*  Preworkout Supplements Page */
+
+.preworkout-shop-div {
+    justify-content: center;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.preworkout-shop-row {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.preworkout-card {
+    font-size: 0.85rem;
+}
+
+/*  Health Supplements Page */
+
+.health-shop-div {
+    justify-content: center;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.health-shop-row {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.health-card {
+    font-size: 0.85rem;
+}
+
+/* Prop 65 Page */
+
+.prop-div {
+    display: flex;
+    margin: 2rem 14rem;
+    flex-direction: column;
+}
+
+.prop-p {
+    margin-bottom: 2rem;
+}
+
+/* Contact Page */
+
+.contact-div {
+    display: flex;
+    margin: 7rem;
+    flex-direction: column;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+/* About Us Page */
+
+.about-div {
+    display: flex;
+    margin: 9rem 17rem;
+    flex-direction: column;
+}
+
+/* PRODUCT PAGES */
+
+.product-div {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: row;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.product-info-div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 2rem;
+}
+
+@media (max-width: 1000px) {
+    .product-div {
+        flex-direction: column;
+    }
+
+    .product-info-div {
+        align-items: center;
+    }
+
+    .product-image {
+        width: 200px;
+        height: 200px;
+    }
+}   
+
+.product-page-carousel-image {
+    padding: 3rem;
+}
+
+
+.how-to-use-div {
+    margin: 4rem;
+}
+
+.faq-div {
+    margin: 4rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.faq-question {
+    font-weight: bold;
+}
+
+/* Uncomment for debugging only!!
+
+ * {
+    background: #000 !important;
+    color: #0f0 !important;
+    outline: solid #f00 1px !important;
+  }
+
+*/

@@ -1,0 +1,115 @@
+<%- include("header") -%>
+
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="/">LPN</a>
+        <button class="navbar-toggler" type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="/">HOME</a>
+                </li>
+                <li class="nav-item dropdown active" aria-current="page">
+                    <a class="nav-link dropdown-toggle" href="/supps"
+                        role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        SUPPLEMENTS
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item"
+                                href="/preworkout">PREWORKOUT</a></li>
+                        <li><a class="dropdown-item"
+                                href="/endurance">ENDURANCE</a></li>
+                        <li><a class="dropdown-item" href="/proteins">PROTEIN</a></li>
+                        <li><a class="dropdown-item" href="/health">HEALTH</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link"
+                        href="/apparel">APPAREL</a>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+</nav>
+<div class="banner-div-protein banner-div">
+
+    <div class="col col-lg-6 col-sm-12">
+        <h2>PROTEIN</h2>
+    </div>
+    <div class="col col-lg-6 col-sm-12">
+
+    </div>
+
+</div>
+
+<div class="protein-shop-div">
+    <div class="protein-shop-row row">
+        <div class="card-div col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="card protein-card">
+                <img src="images/wheyprotein.jpg"
+                    class="card-img-top" alt="container of protein powder">
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">WHEY PROTEIN</h5>
+                    <p class="card-text">
+                        A whey protein containing 25 grams of protein per serving to improve recovery and build muscle.
+                    </p>
+                    <select class="form-select form-select-sm mb-3" aria-label=".form-select-lg example">
+                        <option selected>Select Flavor</option>
+                        <option value="1">Vanilla</option>
+                        <option value="2">Chocolate</option>
+                        <option value="3">Cookies & Cream</option>
+                        <option value="4">Birthday Cake</option>
+                        <option value="5">Strawberry</option>
+                    </select>
+                    <a href="#" class="btn btn-primary w-100">Add To Cart</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="card-div col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="card protein-card">
+                <img src="images/veganprotein.jpg"
+                    class="card-img-top" alt="container of protein powder">
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">VEGAN PROTEIN</h5>
+                    <p class="card-text">
+                        A naturally sweetened, plant-based protein powder with 20 grams of protein per serving.
+                    </p>
+                    <select class="form-select form-select-sm mb-3" aria-label=".form-select-lg example">
+                        <option selected>Select Flavor</option>
+                        <option value="1">Vanilla</option>
+                        <option value="2">Chocolate</option>
+                        <option value="3">Peanut Butter Crunch</option>
+                        <option value="4">Pumpkin Pie</option>
+                    </select>
+                    <a href="#" class="btn btn-primary w-100">Add To Cart</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="card-div col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="card protein-card">
+                <img src="images/collagenprotein.jpg"
+                    class="card-img-top" alt="container of protein powder">
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">COLLAGEN PROTEIN</h5>
+                    <p class="card-text">
+                        Collagen sourced from grass-fed bovine collagen peptides with 20 grams of protein per serving
+                    </p>
+                    <select class="form-select form-select-sm mb-3" aria-label=".form-select-lg example">
+                        <option selected>Unflavored</option>
+                    </select>
+                    <a href="#" class="btn btn-primary w-100">Add To Cart</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<%- include("footer") -%>
