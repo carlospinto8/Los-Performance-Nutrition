@@ -57,3 +57,48 @@ function switchPreworkoutProductImage() {
         return;
     }
 }
+
+function switchBcaaProductImage() {
+    let selectedImage = document.myForm.bcaaFlavors.options[document.myForm.bcaaFlavors.selectedIndex].value;
+    if(selectedImage == "apple") {
+        document.getElementById("bcaa-image").src =
+            "images/bcaa-sourapple-lg.png";
+    } else if(selectedImage === "lemon") {
+        document.getElementById("bcaa-image").src =
+            "images/bcaa-lemonlime-lg.png";
+    } else if(selectedImage === "lemonade") {
+        document.getElementById("bcaa-image").src =
+            "images/bcaa-raslemonade-lg.png";
+    } else {
+        return;
+    }
+}
+
+function switchElectrolyteProductImage() {
+    let selectedImage = document.myForm.electrolyteFlavors.options[document.myForm.electrolyteFlavors.selectedIndex].value;
+    if(selectedImage == "punch") {
+        document.getElementById("electrolyte-image").src =
+            "images/electrolytes-punch-lg.png";
+    } else if(selectedImage === "sour") {
+        document.getElementById("electrolyte-image").src =
+            "images/electrolytes-watermelon-lg.png";
+    } else if(selectedImage === "lemonade") {
+        document.getElementById("electrolyte-image").src =
+            "images/electrolytes-lemonade-lg.png";
+    } else {
+        return;
+    }
+}
+
+function switchGreensProductImage() {
+    let selectedImage = document.myForm.greensFlavors.options[document.myForm.greensFlavors.selectedIndex].value;
+    if(selectedImage == "lemon") {
+        document.getElementById("greens-image").src =
+            "images/Greens-lemonlime-lg.png";
+    } else if(selectedImage === "berry") {
+        document.getElementById("greens-image").src =
+            "images/Greens-berry-lg.png";
+    } else {
+        return;
+    }
+}

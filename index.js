@@ -23,8 +23,20 @@ app.get("/pre", (req, res) => {
     res.render("preworkout-product-page");
 });
 
+app.get("/creatine", (req, res) => {
+    res.render("creatine-product-page");
+});
+
 app.get("/endurance", (req, res) => {
     res.render("endurance");
+});
+
+app.get("/bcaa", (req, res) => {
+    res.render("bcaa-product-page");
+});
+
+app.get("/electrolytes", (req, res) => {
+    res.render("electrolytes-product-page");
 });
 
 app.get("/proteins", (req, res) => {
@@ -39,8 +51,16 @@ app.get("/vegan", (req, res) => {
     res.render("veganpro-product-page");
 });
 
+app.get("/collagen", (req, res) => {
+    res.render("collagen-product-page");
+});
+
 app.get("/health", (req, res) => {
     res.render("health");
+});
+
+app.get("/greens", (req, res) => {
+    res.render("greens-product-page");
 });
 
 app.get("/apparel", (req, res) => {
