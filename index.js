@@ -63,6 +63,26 @@ app.get("/greens", (req, res) => {
     res.render("greens-product-page");
 });
 
+app.get("/sleep", (req, res) => {
+    res.render("sleepaid-product-page");
+});
+
+app.get("/multi", (req, res) => {
+    res.render("multivit-product-page");
+});
+
+app.get("/d3", (req, res) => {
+    res.render("d3-product-page");
+});
+
+app.get("/fishoil", (req, res) => {
+    res.render("fishoil-product-page");
+});
+
+app.get("/joints", (req, res) => {
+    res.render("joint-support-product-page");
+});
+
 app.get("/apparel", (req, res) => {
     res.render("apparel");
 });

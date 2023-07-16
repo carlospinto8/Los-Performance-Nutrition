@@ -102,3 +102,19 @@ function switchGreensProductImage() {
         return;
     }
 }
+
+function switchSleepProductImage() {
+    let selectedImage = document.myForm.sleepFlavors.options[document.myForm.sleepFlavors.selectedIndex].value;
+    if(selectedImage == "orange") {
+        document.getElementById("sleep-image").src =
+            "images/sleep-orange-lg.jpg";
+    } else if(selectedImage === "chocolate") {
+        document.getElementById("sleep-image").src =
+            "images/sleep-chocolate-lg.jpg";
+    } else if(selectedImage === "vanilla") {
+        document.getElementById("sleep-image").src =
+            "images/sleep-vanilla-lg.jpg";
+    } else {
+        return;
+    }
+}

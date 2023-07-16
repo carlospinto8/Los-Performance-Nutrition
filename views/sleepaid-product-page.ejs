@@ -1,0 +1,106 @@
+<%- include("header") -%>
+
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="/">LPN</a>
+        <button class="navbar-toggler" type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="/">HOME</a>
+                </li>
+                <li class="nav-item dropdown active" aria-current="page">
+                    <a class="nav-link dropdown-toggle" href="/supps"
+                        role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        SUPPLEMENTS
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item"
+                                href="/preworkout">PREWORKOUT</a></li>
+                        <li><a class="dropdown-item"
+                                href="/endurance">ENDURANCE</a></li>
+                        <li><a class="dropdown-item" href="/proteins">PROTEIN</a></li>
+                        <li><a class="dropdown-item" href="/health">HEALTH</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link"
+                        href="/apparel">APPAREL</a>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+</nav>
+
+<div class="product-div">
+    <div class="product-image-div">
+        <img src="images/sleep-orange-lg.jpg" id="sleep-image" class="product-image">
+    </div>
+
+    <div class="product-info-div">
+        <h3>SLEEP AID</h3>
+        <p>$39.99</p>
+        <p>SERVINGS - 30</p>
+        <p>A night-time sleep support supplement with ingredients to improve sleep quality and recovery.</p>
+        <h5>SELECT FLAVOR:</h5>
+        <form method="" action="" name="myForm" class="w-50">
+            <select class="form-select form-select-sm mb-3" name="sleepFlavors" onchange="switchSleepProductImage();" aria-label=".form-select-lg example">
+                <option selected>Select Flavor</option>
+                <option value="orange">Orange Creamsicle</option>
+                <option value="chocolate">Hot Chocolate</option>
+                <option value="vanilla">French Vanilla</option>
+            </select>
+        <a href="#" class="btn btn-primary w-100">Add To Cart $39.99</a>
+        </form>
+    </div>
+
+</div>
+
+
+<div class="faq-div">
+    <h4 class="mb-3">FREQUENTLY ASKED QUESTIONS</h4>
+    <div class="w-50 mb-3">
+        <p class="faq-question">
+            WHAT MUSHROOMS ARE IN OUR SLEEP AID?
+        </p>
+        <P>
+            Sleep Aid consists of six adaptogenic mushrooms grown in the U.S.
+        </P>
+        <p>
+            These mushroom strains consist of Cordyceps, Reishi, King Trumpet, Shiitake, Lion's Mane, and Turkey Tail. 
+            They belong to the large category of non-psychoactive mushrooms. 
+        </p>
+    </div>
+
+    <div class="w-50 mb-3">
+        <p class="faq-question">
+            HOW TO USE SLEEP AID
+        </p>
+        <p>
+            Mix 1 serving (1 scoop) in 8-10 oz of hot or cold water and consume 30-45 minutes before bed.
+        </p>
+    </div>
+    
+    <div class="w-50">
+        <p class="faq-question">PRODUCT WARNINGS</p>
+        <p>
+            You should consult a licensed healthcare practitioner before use, especially if you are taking medication or have a medical condition. 
+            Do not use if you are currently pregnant or nursing, have had or have a family history of heart disease, high blood pressure, stroke, or 
+            any other disease. Discontinue use immediately if you experience any adverse reactions.
+        </p>
+        <p>
+            ​WARNING: This product can expose you to chemicals, including arsenic, which is known to the State of California to cause cancer. 
+            For more information, go to <a href="www.P65Warnings.ca.gov">www.P65Warnings.ca.gov</a>.
+        </p>
+    </div>
+    
+    
+</div>
+
+<%- include("footer") -%>
